@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\WebApi\\Tiendaapi\\Tiendaapi.csproj": {}
+    "C:\\Users\\an.samboni\\Desktop\\Tiendaapi\\Tiendaapi\\Tiendaapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\WebApi\\Tiendaapi\\Tiendaapi.csproj": {
+    "C:\\Users\\an.samboni\\Desktop\\Tiendaapi\\Tiendaapi\\Tiendaapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\WebApi\\Tiendaapi\\Tiendaapi.csproj",
+        "projectUniqueName": "C:\\Users\\an.samboni\\Desktop\\Tiendaapi\\Tiendaapi\\Tiendaapi.csproj",
         "projectName": "Tiendaapi",
-        "projectPath": "C:\\Users\\andre\\WebApi\\Tiendaapi\\Tiendaapi.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\WebApi\\Tiendaapi\\obj\\",
+        "projectPath": "C:\\Users\\an.samboni\\Desktop\\Tiendaapi\\Tiendaapi\\Tiendaapi.csproj",
+        "packagesPath": "C:\\Users\\an.samboni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\an.samboni\\Desktop\\Tiendaapi\\Tiendaapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\an.samboni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,16 @@
               "target": "Package",
               "version": "[5.1.1, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -68,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23274.1\\RuntimeIdentifierGraph.json"
         }
       }
     }
